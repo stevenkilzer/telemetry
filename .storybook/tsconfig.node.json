@@ -3,7 +3,12 @@
       "composite": true,
       "skipLibCheck": true,
       "module": "ESNext",
-      "moduleResolution": "bundler"
+      "moduleResolution": "bundler","baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./stories/shadcn/*"
+      ]
+    }
     },
     "include": ["vite.config.mts", ".storybook/**/*"]
   }

@@ -16,7 +16,13 @@
       "noEmit": true,
       "jsx": "react-jsx",
       "types": ["vite/client"],
-      "allowImportingTsExtensions": true
+      "allowImportingTsExtensions": true,
+      "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
     },
     "files": [],
     "references": [
