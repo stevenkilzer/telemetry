@@ -18,6 +18,13 @@
       "types": ["vite/client"],
       "allowImportingTsExtensions": true
     },
-    "include": ["src", "stories"],
-    "references": [{ "path": "./tsconfig.node.json" }]
+    "files": [],
+    "references": [
+      {
+        "path": "./tsconfig.app.json"
+      },
+      {
+        "path": "./.storybook/tsconfig.node.json"
+      }
+    ]
   }
